@@ -8,8 +8,7 @@ import json
 from flask import make_response
 from feedgen.feed import FeedGenerator
 from urllib.parse import urljoin
-from werkzeug.contrib.atom import AtomFeed
-
+from feedwerk.atom import AtomFeed, FeedEntry
 app = Flask(__name__)
 Bootstrap(app)
 
